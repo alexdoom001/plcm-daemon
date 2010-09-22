@@ -22,3 +22,9 @@
 #define PLCM_IOCTL_GET_KEYPAD   0x0C
 //Input char
 #define PLCM_IOCTL_INPUT_CHAR  0x0E
+//Load cyrillic symbols in CGRAM
+#define PLCM_IOCTL_LOAD_CYRILLIC 0x0F
+//Set CGRAM index to zero
+#define PLCM_IOCTL_RESET_CGRAM 0x10
+
+#define DSPL_WIDTH 20
